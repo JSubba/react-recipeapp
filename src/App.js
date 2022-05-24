@@ -1,11 +1,14 @@
 import Pages from "./Pages/Pages";
 import "./App.css";
+import Category from "./components/Category";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
+      <Category />
       <Pages />
-    </div>
+    </BrowserRouter>
   );
 }
 
