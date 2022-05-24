@@ -1,7 +1,12 @@
+import Pages from "./Pages/Pages";
 import "./App.css";
 
 function App() {
-  return <div>Hello App</div>;
+  return (
+    <div>
+      <Pages />
+    </div>
+  );
 }
 
 export default App;
